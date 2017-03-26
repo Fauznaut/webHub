@@ -1,25 +1,33 @@
-#header {
+* {
+    box-sizing: border-box;
 }
-#nav {
+.nav {
     float: none;
     width: 1000px;
 }
+.container {
+    background-color: dimgray;
+}
 #container {
     background-color: dimgray;
-    width: 1080px;
-    margin-left: auto;
-    margin-right: auto;
 }
-#content{
+.content{
     padding: 10px;
 }
-#main {
+.main {
     width: 600px;
 }
-#footer{
+.footer{
     clear: both;
 }
-ul {
+
+.header {
+    padding: 10px;
+}
+#header {
+    padding: 10px;
+}
+.ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -27,11 +35,11 @@ ul {
     background-color: #333;
 }
 
-li {
+.li {
     float: left;
 }
 
-li a {
+.li a {
     display: block;
     color: white;
     text-align: center;
