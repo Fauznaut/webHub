@@ -1,33 +1,35 @@
 * {
     box-sizing: border-box;
 }
-.nav {
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.col-1 {width: 5%;
+}
+.col-2 {width: 90%;
+}
+.col-3 {width: 5%;
+}
+#nav {
     float: none;
-    width: 1000px;
 }
-.container {
-    background-color: dimgray;
-}
+
 #container {
     background-color: dimgray;
 }
-.content{
+#content{
     padding: 10px;
 }
-.main {
-    width: 600px;
+#main {
 }
-.footer{
+#footer{
     clear: both;
-}
-
-.header {
-    padding: 10px;
 }
 #header {
     padding: 10px;
 }
-.ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -35,11 +37,11 @@
     background-color: #333;
 }
 
-.li {
+li {
     float: left;
 }
 
-.li a {
+li a {
     display: block;
     color: white;
     text-align: center;
