@@ -31,7 +31,7 @@
             </div>
         </div>
         <div id="footer">
-            <p>Copyright 2017</p>
+            <p>Copyright <?php echo date("Y"); ?></p>
         </div>
     </div>
 </div>
